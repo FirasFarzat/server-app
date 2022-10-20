@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev":"nodemon server"
+    "start": "node server"
   },
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
   }
 }
